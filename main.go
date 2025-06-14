@@ -9,6 +9,6 @@ import (
 func main() {
 	log.Println("from init fail container.........")
 
-	time.Sleep(41 * time.Second)
+	time.Sleep(5 * time.Second)
 	os.Exit(1)
 }
